@@ -82,6 +82,7 @@ img{
   margin: 20px 0px 20px 0px;
 }
 .lifeText {
+  display: block;
   text-indent: 40px;
   padding: 40px 30px 50px 30px;
 }
