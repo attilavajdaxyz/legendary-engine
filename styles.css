@@ -83,6 +83,6 @@ img{
 }
 .lifeText {
 /*   display: block; */
-  text-indent: 100px;
-  padding: 100px 100px 100px 100px;
+  text-indent: 30px;
+  margin: 40px;
 }
