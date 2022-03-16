@@ -1,25 +1,37 @@
 body{
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Fredoka, sans-serif;
 /*   background-color: #ccc; */
-  text-align: center;
   min-width: 300px;
   max-width: 600px;
   margin: auto;
+  background-color: white;
 }
+
+a {
+  background-color: powderblue;
+  transition: background-color .5s;
+}
+
+a:hover {
+  background-color: gold;
+}
+
 ul.no-bullets {
   list-style-type: none; /* Remove bullets */
   padding: 0; /* Remove padding */
   margin: 0; /* Remove margins */
 }
+
 .navbar {
   position: fixed;
   top: 0px;
   left: 0px;
   width: 100%;
-  background-color: #000;
-  color: white;
-  font-size: 20px;
+  background-color: antiquewhite;
+  color:white;
+  font-size: 30px;
   padding: 5px;
+  text-align: center;
 }
 nav li {
   display: inline;
@@ -30,8 +42,16 @@ nav li {
 }
 nav a {
   text-decoration: none;
-  color: white;
+  color:midnightblue;
+  background-color: antiquewhite;
 }
+
+nav a:hover {
+  text-decoration: none;
+  color:midnightblue;
+  background-color: antiquewhite;
+}
+
 a {
   text-decoration: none;
   color: blue;
@@ -43,6 +63,7 @@ a {
 /*   padding: 10px 10px 10px 10px; */
 /*   border: 2px solid blue; */
   font-size: 42px;
+  text-align: center;
 }
 .subtitle{
   margin-top: 5px;
@@ -55,6 +76,7 @@ a {
   padding-top: 10px;
   padding-bottom: 10px;
   margin-top: 50px;
+  text-align: center;
 }
 .mainText{
   text-align: left;
@@ -67,6 +89,8 @@ a {
 }
 .lifeText {
 /*   display: block; */
+  text-align: left;
+  font-size: 24px;
   text-indent: 40px;
   margin: 60px 0px 100px 0px;
 }
@@ -75,5 +99,20 @@ main{
 }
 footer {
   padding: 5px;
-  margin 5px;
+  margin: 5px;
 }
+
+.blog-pages {
+  text-align: left;
+}
+
+.blog-pages p {
+  font-size: 20px;
+}
+
+.blog-pages ul {
+  font-size: 20px;
+}
+
+
+/* mit lehet elvenni belole? taoldal */
