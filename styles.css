@@ -45,11 +45,13 @@ nav li {
 nav a {
   text-decoration: none;
   color:midnightblue;
+  background-color: #fff;
 }
 
 nav a:hover {
   text-decoration: none;
   color:midnightblue;
+  background-color: #fff;
 }
 
 a {
