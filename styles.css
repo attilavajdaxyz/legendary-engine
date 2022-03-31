@@ -32,6 +32,7 @@ ul.no-bullets {
   font-size: 30px;
   padding: 5px;
   text-align: center;
+  border-bottom: 2px solid #777;
 }
 nav li {
   display: inline;
@@ -44,13 +45,11 @@ nav li {
 nav a {
   text-decoration: none;
   color:midnightblue;
-  background-color: antiquewhite;
 }
 
 nav a:hover {
   text-decoration: none;
   color:midnightblue;
-  background-color: antiquewhite;
 }
 
 a {
