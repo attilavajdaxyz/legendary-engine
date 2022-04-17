@@ -33,6 +33,7 @@ ul.no-bullets {
   padding: 5px;
   text-align: center;
   border-bottom: 2px solid #777;
+  margin-top: 10px;
 }
 nav li {
   display: inline;
